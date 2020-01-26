@@ -39,5 +39,14 @@ public class FormActivity extends AppCompatActivity {
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();
         }
+        else if (editTitle.getText().toString().equals("")){
+            Toast toast = Toast.makeText(getApplicationContext(),
+                    "Бакыт ваще ваще красавчик!",
+                    Toast.LENGTH_SHORT);
+            toast.setGravity(Gravity.CENTER, 0, 0);
+            toast.show();
+
+
+        }
     }
 }
